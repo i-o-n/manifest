@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ion"
+          fetch="https://github.com/ion-OS"
+          revision="pie" />
+
+  <remote name="ag"
+          fetch="https://gitlab.com/AnkitGourav"
+          revision="android-9.0" />
+
+  <!-- CodeAurora Additions -->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="ion" />
+  <project path="frameworks/base" name="frameworks_base" remote="ion" />
+  <project path="frameworks/native" name="frameworks_native" remote="ion" />
+
+  <!-- General repos -->
+  <project path="bionic" name="bionic" remote="ion" />
+  <project path="build/make" name="build" remote="ion">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="ion">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/kati" name="build_kati" remote="ion" />
+  <project path="vendor/ion" name="vendor_ion" remote="ion" />
+  <project path="vendor/google" name="vendor_google" remote="ag" clone-depth="1" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="ion" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
+
+  <!-- System repos -->
+  <project path="system/vold" name="system_vold" remote="ion" />
+
+</manifest>
