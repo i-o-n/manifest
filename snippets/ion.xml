@@ -41,6 +41,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ion" />
 
   <!-- System repos -->
   <project path="system/vold" name="system_vold" remote="ion" />
