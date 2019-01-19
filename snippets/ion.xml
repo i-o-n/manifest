@@ -12,6 +12,9 @@
   <!-- CodeAurora Additions -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
 
+  <!-- External repos -->
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="ion" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="ion" />
   <project path="frameworks/base" name="frameworks_base" remote="ion" />
