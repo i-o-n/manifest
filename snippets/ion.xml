@@ -44,6 +44,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ion" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/ionizer" name="packages_apps_ionizer" remote="ion" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ion" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ion" />
