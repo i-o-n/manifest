@@ -48,6 +48,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ion" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ion" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ion" />
 
   <!-- System repos -->
   <project path="system/vold" name="system_vold" remote="ion" />
