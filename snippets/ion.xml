@@ -2,12 +2,16 @@
 <manifest>
 
   <remote name="ion"
-          fetch="https://github.com/ion-OS"
+          fetch="https://github.com/i-o-n"
           revision="pie" />
 
   <remote name="ag"
           fetch="https://gitlab.com/AnkitGourav"
           revision="android-9.0" />
+
+  <remote name="device"
+          fetch="https://github.com/ion-OS"
+          revision="pie" />
 
   <!-- CodeAurora Additions -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
