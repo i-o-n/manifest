@@ -42,6 +42,7 @@
   </project>
   <project path="build/kati" name="build_kati" remote="ion" />
   <project path="vendor/ion" name="vendor_ion" remote="ion" />
+  <project path="vendor/overlays" name="vendor_overlays" remote="ion" />
   <project path="vendor/google" name="vendor_google" remote="ag" clone-depth="1" />
 
   <!-- Hardware repos -->
