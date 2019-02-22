@@ -7,7 +7,7 @@
 
   <remote name="ag"
           fetch="https://gitlab.com/AnkitGourav"
-          revision="android-9.0" />
+          revision="pie" />
 
   <remote name="device"
           fetch="https://github.com/ion-OS"
@@ -41,10 +41,11 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/kati" name="build_kati" remote="ion" />
   <project path="vendor/ion" name="vendor_ion" remote="ion" />
   <project path="vendor/overlays" name="vendor_overlays" remote="ion" />
-  <project path="vendor/google" name="vendor_google" remote="ag" clone-depth="1" />
+  <project path="vendor/google/ion" name="vendor_google_ion" remote="ion" />
+  <project path="vendor/google/app" name="vendor_google_app" remote="ag" clone-depth="1" />
+  <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ion" />
@@ -54,10 +55,13 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ion" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ion" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ion" />
+  <project path="packages/providers/WeatherProvider" name="packages_providers_WeatherProvider" remote="ion" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ion" />
 
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="ion" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="ion" />
   <project path="system/vold" name="system_vold" remote="ion" />
 
 </manifest>
