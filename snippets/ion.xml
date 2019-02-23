@@ -17,6 +17,7 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
 
   <!-- External repos -->
+  <project path="external/perfetto" name="external_perfetto" remote="ion" />
   <project path="external/roboto-fonts" name="external_roboto-fonts" remote="ion" />
 
   <!-- Framework repos -->
