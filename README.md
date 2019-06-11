@@ -1,18 +1,27 @@
-ionOS
+## >ion ##
 
 
-# Initialize local repository
+## Initialize local repository ##
+```bash
 repo init -u https://github.com/i-o-n/manifest -b pie
+```
 
-# Sync
+## Sync ##
+```bash
 repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+```
 
-Build
-# Set up environment
+## Build & Set up environment ##
+```bash
 $ . build/envsetup.sh
+```
 
-# Choose a target
+## Choose a target ##
+```bash
 $ lunch ion_$device-userdebug
+```
 
-# Build the code
+## Build the code ##
+```bash
 $ mka bacon -jX
+```
