@@ -64,6 +64,7 @@
 
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="ion" />
+  <project path="system/netd" name="system_netd" remote="ion" />
   <project path="system/sepolicy" name="system_sepolicy" remote="ion" />
   <project path="system/vold" name="system_vold" remote="ion" />
 
