@@ -61,6 +61,7 @@
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ion" />
   <project path="packages/providers/WeatherProvider" name="packages_providers_WeatherProvider" remote="ion" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ion" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ion" />
 
   <!-- System repos -->
   <project path="system/bt" name="system_bt" remote="ion" />
