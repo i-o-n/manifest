@@ -3,34 +3,18 @@
 
   <remote name="ion"
           fetch="https://github.com/i-o-n"
-          revision="pie" />
+          revision="ten" />
 
   <remote name="ag"
           fetch="https://gitlab.com/AnkitGourav"
-          revision="pie" />
+          revision="ten" />
 
   <remote name="device"
           fetch="https://github.com/ion-OS"
-          revision="pie" />
+          revision="ten" />
 
-  <!-- CodeAurora Additions -->
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
-
-  <!-- External repos -->
-  <project path="external/perfetto" name="external_perfetto" remote="ion" />
-  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="ion" />
-
-  <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="ion" />
-  <project path="frameworks/base" name="frameworks_base" remote="ion" />
-  <project path="frameworks/ion" name="frameworks_ion" remote="ion" />
-  <project path="frameworks/native" name="frameworks_native" remote="ion" />
-  <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="ion" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ion" />
-
-  <!-- General repos -->
-  <project path="bionic" name="bionic" remote="ion" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="ion" />
+  <!-- ion -->
+  <!-- Build -->
   <project path="build/make" name="build" remote="ion">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -44,32 +28,33 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="vendor/ion" name="vendor_ion" remote="ion" />
-  <project path="vendor/overlays" name="vendor_overlays" remote="ion" />
-  <project path="vendor/google/ion" name="vendor_google_ion" remote="ion" />
-  <project path="vendor/google/app" name="vendor_google_app" remote="ag" clone-depth="1" />
-  <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" />
-  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="ion" />
 
-  <!-- Hardware repos -->
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="ion" />
+  <project path="frameworks/base" name="frameworks_base" remote="ion" />
+  <project path="frameworks/native" name="frameworks_native" remote="ion" />
+
+  <!-- General -->
+  <project path="bionic" name="bionic" remote="ion" />
+  <project path="manifest" name="manifest" remote="ion" />
+
+  <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ion" />
 
-  <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="ion" />
+  <!-- Packages -->
   <project path="packages/apps/ionizer" name="packages_apps_ionizer" remote="ion" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ion" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ion" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ion" />
-  <project path="packages/providers/WeatherProvider" name="packages_providers_WeatherProvider" remote="ion" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ion" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ion" />
 
-  <!-- System repos -->
-  <project path="system/bt" name="system_bt" remote="ion" />
+  <!-- System -->
   <project path="system/core" name="system_core" remote="ion" />
   <project path="system/netd" name="system_netd" remote="ion" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="ion" />
   <project path="system/vold" name="system_vold" remote="ion" />
+
+  <!-- Vendor -->
+  <project path="vendor/ion" name="vendor_ion" remote="ion" />
+  <project path="vendor/google/app" name="vendor_google_app" remote="ag" clone-depth="1" />
+  <project path="vendor/google/ion" name="vendor_google_ion" remote="ion" />
+  <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
 
 </manifest>

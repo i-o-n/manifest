@@ -1,27 +1,26 @@
-## >ion ##
+# ion #
 
-
-## Initialize local repository ##
+### Sync ###
 ```bash
-repo init -u https://github.com/i-o-n/manifest -b pie
+
+# Initialize local repository
+repo init -u https://github.com/i-o-n/manifest -b ten
+
+# Sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
 ```
 
-## Sync ##
+### Build ###
 ```bash
-repo sync -c -jx --force-sync --no-clone-bundle --no-tags
-```
 
-## Build & Set up environment ##
-```bash
+# Set-up environment
 $ . build/envsetup.sh
-```
 
-## Choose a target ##
-```bash
+# Choose a target
 $ lunch ion_$device-userdebug
-```
 
-## Build the code ##
-```bash
-$ mka bacon -jX
+# Build the code
+$ mka bacon -j$(nproc --all)
+
 ```
