@@ -39,6 +39,7 @@
   <project path="manifest" name="manifest" remote="ion" />
 
   <!-- Hardware -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="ion" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ion" />
 
   <!-- Packages -->
