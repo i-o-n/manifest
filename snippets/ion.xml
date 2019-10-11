@@ -29,6 +29,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="ion" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="ion" />
   <project path="frameworks/base" name="frameworks_base" remote="ion" />
