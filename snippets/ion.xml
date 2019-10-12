@@ -36,6 +36,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="ion" />
   <project path="frameworks/base" name="frameworks_base" remote="ion" />
   <project path="frameworks/native" name="frameworks_native" remote="ion" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ion" />
 
   <!-- General -->
   <project path="bionic" name="bionic" remote="ion" />
