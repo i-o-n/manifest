@@ -93,7 +93,6 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />
 
 </manifest>
