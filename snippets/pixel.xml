@@ -38,6 +38,7 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
 
   <!-- Custom additions -->
   <project path="prebuilts/tools-ion" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
