@@ -38,6 +38,7 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pixel" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pixel" />
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
