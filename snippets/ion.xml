@@ -52,6 +52,7 @@
   <project path="packages/apps/ionizer" name="packages_apps_ionizer" remote="ion" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ion" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ion" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ion" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ion" />
 
