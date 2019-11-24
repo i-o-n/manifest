@@ -41,6 +41,7 @@
   <!-- General -->
   <project path="bionic" name="bionic" remote="ion" />
   <project path="bootable/recovery" name="bootable_recovery" remote="ion" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ion" />
   <project path="manifest" name="manifest" remote="ion" />
 
   <!-- Hardware -->

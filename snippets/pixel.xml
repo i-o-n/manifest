@@ -33,7 +33,6 @@
   <project path="art" name="art" remote="pixel" />
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
