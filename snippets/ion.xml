@@ -52,6 +52,7 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="ion" />
   <project path="packages/apps/ionizer" name="packages_apps_ionizer" remote="ion" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="ion" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ion" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ion" />
