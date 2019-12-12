@@ -65,7 +65,4 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
 
-  <!-- External repos -->
-  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
-
 </manifest>
