@@ -64,4 +64,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
 
+  <!-- System Repos -->
+  <project path="system/keymaster" name="system_keymaster" remote="pixel" />
+
 </manifest>
