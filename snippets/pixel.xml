@@ -66,6 +66,7 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
 
   <!-- System Repos -->
+  <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
 
 </manifest>
