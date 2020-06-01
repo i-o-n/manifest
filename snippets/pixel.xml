@@ -6,6 +6,11 @@
           revision="ten"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-plus"
+          fetch="https://github.com/PixelExperience"
+          revision="ten-plus"
+          review="gerrit.pixelexperience.org" />
+
   <remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
           revision="ten" />
@@ -57,6 +62,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixel-plus" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
