@@ -78,6 +78,8 @@
   <project path="vendor/google/ion" name="vendor_google_ion" remote="ion" />
   <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" />
   <project path="vendor/overlays" name="vendor_overlays" remote="ion" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="ion" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="ion" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
 
 </manifest>
